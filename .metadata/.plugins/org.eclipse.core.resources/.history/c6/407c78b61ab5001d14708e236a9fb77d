@@ -1,0 +1,16 @@
+package com.spring.beans;
+
+import java.time.LocalDateTime;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+public class DesktopMessage {
+	
+	@Autowired
+	private LocalDateTime LDT;
+	
+	public DesktopMessage() {
+	System.out.println("Class Loading.... Desktop...");	
+	}
+
+}

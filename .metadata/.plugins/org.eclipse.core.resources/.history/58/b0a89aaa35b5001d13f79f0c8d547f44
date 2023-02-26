@@ -1,0 +1,12 @@
+package com.spring.beans;
+
+import java.time.LocalDateTime;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+public class WelComeMessage {
+	
+	@Autowired
+	private LocalDateTime dateTime;
+
+}

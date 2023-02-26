@@ -1,0 +1,28 @@
+package com.spring.beans;
+
+import java.time.LocalDateTime;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+public class DesktopMessage {
+	
+	@Autowired
+	private LocalDateTime LDT;
+	
+	public DesktopMessage() {
+	System.out.println("Class Loading.... Desktop... ");	
+	}
+	
+	public String showDesktokMeagges(String user) {
+		
+		System.out.println("SHOW Desktop Message... Message....");
+		int hour=LDT.getHour();
+		System.out.println(hour);
+		int day=LDT.getDayOfMonth();
+		System.out.println(day);
+		int Mom=LDT.getHour();
+		System.out.println(Mom);
+		return user;
+		
+	}
+}

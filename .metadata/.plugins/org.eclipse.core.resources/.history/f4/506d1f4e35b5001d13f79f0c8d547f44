@@ -1,0 +1,21 @@
+package com.spring;
+
+import java.time.LocalDateTime;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class Application {
+	
+	
+	public LocalDateTime dateTime() {
+		System.out.println("Local Date Time .... Date...");
+		return LocalDateTime.now();
+	}
+
+	public static void main(String[] args) {
+		SpringApplication.run(Application.class, args);
+	}
+
+}
