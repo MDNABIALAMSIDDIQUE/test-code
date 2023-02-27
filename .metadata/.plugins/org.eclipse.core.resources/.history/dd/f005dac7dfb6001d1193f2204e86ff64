@@ -1,0 +1,12 @@
+package com.curd.modal;
+
+public class Employee {
+	
+	private Integer ID;
+	private String Name;
+	private String Job;
+	private double salary;
+	private Integer deptNo;
+	
+
+}

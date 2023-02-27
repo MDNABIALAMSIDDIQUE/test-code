@@ -1,0 +1,20 @@
+package com.engine;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.ConfigurableApplicationContext;
+
+import com.engine.type.Vehicel;
+
+@SpringBootApplication
+public class SpringBoot02Application {
+
+	public static void main(String[] args) {
+		ApplicationContext ctxApplicationContext= SpringApplication.run(SpringBoot02Application.class, args);
+		Vehicel vehicel=ctxApplicationContext.getBean("vehicel",Vehicel.class);
+		vehicel.jounery("HYD", "Patna");
+		((ConfigurableApplicationContext) ctxApplicationContext).close();
+	}
+
+}

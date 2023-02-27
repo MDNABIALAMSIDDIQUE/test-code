@@ -1,0 +1,5 @@
+package com.curd.modal;
+
+public class Employee {
+
+}

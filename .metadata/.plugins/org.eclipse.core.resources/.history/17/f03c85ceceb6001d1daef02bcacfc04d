@@ -1,0 +1,20 @@
+package com.engine.type;
+
+import org.springframework.stereotype.Component;
+
+@Component("Eengine")
+public class ElectricEngine implements IEngine {
+
+	@Override
+	public void start() {
+		// TODO Auto-generated method stub
+		System.out.println("This is Engine is Started .....ElectricEngine");
+	}
+
+	@Override
+	public void stop() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

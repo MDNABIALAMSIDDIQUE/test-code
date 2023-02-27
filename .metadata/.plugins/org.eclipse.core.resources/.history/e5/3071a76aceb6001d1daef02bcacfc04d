@@ -1,0 +1,17 @@
+package com.engine.type;
+
+public class PetrolEngine implements IEngine {
+
+	@Override
+	public void start() {
+		System.out.println("This is Petrol Engine Start ....");
+
+	}
+
+	@Override
+	public void stop() {
+		System.out.println("This is Engine Stop .........");
+
+	}
+
+}
