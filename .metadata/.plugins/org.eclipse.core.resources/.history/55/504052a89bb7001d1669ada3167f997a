@@ -1,0 +1,25 @@
+package com.gtl.beans;
+
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
+
+@Component("hotel")
+
+public class Hotal {
+	@Value("12345")
+	private Integer hotelid;
+	
+	@Value("${hotal.Name}")
+	private String hotalName;
+	
+	@Value("${hotal.Address}")
+	private String hotalAddress;
+	
+	@Value("${hotal.Contactno}")
+	private String mobileNo;
+	
+	@Value("${customer.name}")
+	private String custName;
+	
+
+}

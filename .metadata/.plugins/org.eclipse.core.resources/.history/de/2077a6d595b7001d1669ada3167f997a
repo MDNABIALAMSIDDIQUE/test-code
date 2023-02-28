@@ -1,0 +1,28 @@
+package com.gtl.beans;
+
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
+
+@Component("menu")
+public class MenuItemPrice {
+	
+	@Value("${menu.dosaPrice}")
+	private float dosaPrice;
+	@Value("${menu.idllyPrice}")
+	private float idllyPrice;
+	@Value("${menu.pohaPrice}")
+	private float pohaPrice;
+	@Value("${menu.vadaPrice}")
+	private float vodaPrice;
+	
+	
+	@Override
+	public String toString() {
+		return "MenuItemPrice [dosaPrice=" + dosaPrice + ", idllyPrice=" + idllyPrice + ", pohaPrice=" + pohaPrice
+				+ ", vodaPrice=" + vodaPrice + "]";
+	}
+	
+	
+	
+	
+}

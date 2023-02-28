@@ -1,0 +1,23 @@
+package com.gtl.beans;
+
+import org.springframework.stereotype.Component;
+
+@Component("menu")
+public class MenuItemPrice {
+
+	private float dosaPrice;
+	private float idllyPrice;
+	private float pohaPrice;
+	private float vodaPrice;
+	
+	
+	@Override
+	public String toString() {
+		return "MenuItemPrice [dosaPrice=" + dosaPrice + ", idllyPrice=" + idllyPrice + ", pohaPrice=" + pohaPrice
+				+ ", vodaPrice=" + vodaPrice + "]";
+	}
+	
+	
+	
+	
+}
