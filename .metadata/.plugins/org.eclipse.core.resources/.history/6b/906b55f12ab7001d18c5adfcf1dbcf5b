@@ -1,0 +1,5 @@
+package com.curd.dao;
+
+public interface IEmployeeDAO {
+
+}

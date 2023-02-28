@@ -1,0 +1,11 @@
+package com.curd.dao;
+
+import java.util.List;
+
+import com.curd.modal.Employee;
+
+public interface IEmployeeDAO {
+	
+	public List<Employee> getEmployeesByDesgs(String desg,String desg2,String desg3) throws Exception;
+
+}

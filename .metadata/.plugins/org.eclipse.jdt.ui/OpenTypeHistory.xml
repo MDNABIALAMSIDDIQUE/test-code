@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <typeInfoHistroy>
     <typeInfo handle="=SpringBoot_02/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.engine.type{IEngine.java[IEngine" modifiers="513" timestamp="1677522030212"/>
+    <typeInfo handle="=SpringBoot_03-LayeredApplication/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.curd.dao{IEmployeeDAO.java[IEmployeeDAO" modifiers="513" timestamp="1677563124632"/>
+    <typeInfo handle="=SpringBoot_03-LayeredApplication/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.curd.service{IEmployeeMgmtService.java[IEmployeeMgmtService" modifiers="513" timestamp="1677566566662"/>
 </typeInfoHistroy>

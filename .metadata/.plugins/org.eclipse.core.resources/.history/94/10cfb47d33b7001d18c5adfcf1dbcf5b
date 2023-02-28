@@ -1,0 +1,15 @@
+package com.curd.service;
+
+import java.util.List;
+
+import com.curd.modal.Employee;
+
+public class EmployeeMgmtService implements IEmployeeMgmtService {
+
+	@Override
+	public List<Employee> fatchEmployeeByDesgs(String desg1, String desg2, String desg3) throws Exception {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

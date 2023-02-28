@@ -1,0 +1,18 @@
+package com.curd.dao;
+
+import java.util.List;
+
+import org.springframework.stereotype.Repository;
+
+import com.curd.modal.Employee;
+
+@Repository("empDAO")
+public class EmployeeDAOimpl implements IEmployeeDAO {
+
+	@Override
+	public List<Employee> getEmployeesByDesgs(String desg, String desg2, String desg3) throws Exception {
+		
+		return null;
+	}
+
+}

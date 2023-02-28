@@ -1,0 +1,26 @@
+package com.curd.dao;
+
+import java.util.List;
+
+import javax.sql.DataSource;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+
+import com.curd.modal.Employee;
+
+@Repository("empDAO")
+public class EmployeeDAOimpl implements IEmployeeDAO {
+	
+		private static final String GET_EMPS_BY_DESGS="SELECT EMPNO,ENAME,JOB,SAL,DEPTNO FROM EMP WHERE JOB IN(?,?,?)ORDER BY JOB";
+		@Autowired
+		private DataSource ds;
+	
+	
+	@Override
+	public List<Employee> getEmployeesByDesgs(String desg, String desg2, String desg3) throws Exception {
+		
+		return null;
+	}
+
+}
