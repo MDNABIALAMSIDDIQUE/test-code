@@ -1,0 +1,21 @@
+package com.gtl;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.ConfigurableApplicationContext;
+
+import com.gtl.sbean.Company;
+
+@SpringBootApplication
+public class SpringBoot05ConfigurationPropatiesApplication {
+
+	public static void main(String[] args) {
+	ApplicationContext ctx=	SpringApplication.run(SpringBoot05ConfigurationPropatiesApplication.class, args);
+	Company company=ctx.getBean("company",Company.class);
+	System.out.println(company);
+	((ConfigurableApplicationContext) ctx).close();
+	
+	}
+
+}
