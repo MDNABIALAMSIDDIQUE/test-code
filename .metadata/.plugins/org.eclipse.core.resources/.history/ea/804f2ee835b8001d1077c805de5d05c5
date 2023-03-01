@@ -1,0 +1,12 @@
+# array
+git.com.favColor[0]=red
+git.com.favColor[1]=green
+git.com.favColor[2]=blue
+# list
+git.com.nickname[0]=zohan
+git.com.nickname[1]=zohu
+git.com.nickname[2]= zohan Babu
+#set
+git.com.phoneNumber[0]=8899774455
+git.com.phoneNumber[1]=3322116655
+git.com.phoneNumber[2]=9988556633

@@ -1,0 +1,10 @@
+package com.gtl.sbean;
+
+public class Comapany {
+
+	private Integer id;
+	private String name;
+	private String company;
+	private String size;
+	
+}

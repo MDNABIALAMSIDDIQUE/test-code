@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.gtl.company&apos; to &apos;com.gtl.sbean&apos;&#x0D;&#x0A;- Original project: &apos;SpringBoot_06_ConfigurationPropaties-List_set_Map&apos;&#x0D;&#x0A;- Original element: &apos;SpringBoot_06_ConfigurationPropaties-List_set_Map/src/main/java/com.gtl.company&apos;&#x0D;&#x0A;- Renamed element: &apos;SpringBoot_06_ConfigurationPropaties-List_set_Map/src/main/java/com.gtl.sbean&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.gtl.company&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.gtl.company" name="com.gtl.sbean" qualified="false" references="true" stamp="1677676396908" textual="false" version="1.0"/>
+</session>

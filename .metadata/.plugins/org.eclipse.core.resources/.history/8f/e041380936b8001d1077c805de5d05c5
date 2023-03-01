@@ -1,0 +1,23 @@
+# array
+git.com.favColor[0]=red
+git.com.favColor[1]=green
+git.com.favColor[2]=blue
+# list
+git.com.nickname[0]=zohan
+git.com.nickname[1]=zohu
+git.com.nick-name[2]= zohan Babu
+#set
+git.com.phoneNumber[0]=8899774455
+git.com.phoneNumber[1]=3322116655
+git.com.phone-Number[2]=9988556633
+
+#Map
+#for Map -- <prefix><prop>.<key>=<value>
+git.com.idDetails.aadharid=552233665544
+git.com.idDetails.voterid=DF8547F
+git.com.idDetails.passportNo=GF8868-13F
+
+#HAS - A 
+git.com.company.id=5241
+git.com.company.name=HCL
+git.com.company.
