@@ -1,0 +1,22 @@
+git:
+  com:
+    comapany:
+      id: '5241'
+      name: HCL
+      address: HYD
+      size: '10000'
+    idDetails:
+      voterid: DF8547F
+      aadharid: '552233665544'
+      passportNo: GF8868-13F
+    ename: MD ZOHAN Hassan
+    phoneNumber[1]: '3322116655'
+    phoneNumber[0]: '8899774455'
+    nickname[0]: zohan
+    nickname[1]: zohu
+    eno: '5002'
+    nick-name[2]: zohan Babu
+    favColor[2]: blue
+    favColor[1]: green
+    phone-Number[2]: '9988556633'
+    favColor[0]: red
